@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Software Developer</title>
+    <meta name="description" content="Personal portfolio of a Software Developer.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Dev<span>Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <p class="greeting">Hi, I am</p>
+                    <h1 class="name">Sakshi Sahu</h1>
+                    <h2 class="title" id="typewriter">Software Developer</h2>
+                    <p class="tagline">Skilled in Java (DSA), React, and Spring Boot with experience in REST APIs, SQL,
+                        and Python-based AI/ML. Building scalable and efficient systems.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Sakshi-987" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sakshi-sahu987/" aria-label="LinkedIn" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:sahusakshi194@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image reveal-right">
+                    <div class="blob-bg"></div>
+                    <img src="img/profile-photo.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">About <span>Me</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-container">
+                    <div class="about-image reveal-left">
+                        <div class="img-wrapper">
+                            <img src="img/about.png" alt="Working on code">
+                        </div>
+                    </div>
+                    <div class="about-content reveal-right">
+                        <h3>Career Summary</h3>
+                        <p>I am a Software Developer skilled in Java (DSA), React, and Spring Boot with experience in
+                            REST APIs, SQL, and Python-based AI/ML.</p>
+                        <p>I have a strong foundation in core CS concepts, heavily focused on building scalable,
+                            efficient, and robust systems.</p>
+
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span class="label">Location:</span>
+                                <span class="value">Jhansi, UP, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Phone:</span>
+                                <span class="value">+91-9506329606</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Availability:</span>
+                                <span class="value">Open to opportunities</span>
+                            </div>
+                        </div>
+
+                        <a href="assets/Sakshi-resume-final.pdf" target="_blank" class="btn btn-primary mt-4">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">My <span>Skills</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="skills-container">
+                    <!-- Development -->
+                    <div class="skill-category reveal">
+                        <h3><i class="fas fa-code"></i> Development</h3>
+                        <div class="skill-badges">
+                            <span class="badge"><i class="fab fa-react"></i> React</span>
+                            <span class="badge"><i class="fab fa-java"></i> Java</span>
+                            <span class="badge"><i class="fas fa-leaf"></i> Spring Boot</span>
+                            <span class="badge">Express.js</span>
+                            <span class="badge"><i class="fab fa-html5"></i> HTML/CSS</span>
+                        </div>
+                    </div>
+                    <!-- Backend & DB -->
+                    <div class="skill-category reveal" style="transition-delay: 0.1s">
+                        <h3><i class="fas fa-server"></i> Backend & DB</h3>
+                        <div class="skill-badges">
+                            <span class="badge"><i class="fab fa-python"></i> Python</span>
+                            <span class="badge">Django</span>
+                            <span class="badge"><i class="fab fa-node-js"></i> Node.js</span>
+                            <span class="badge">REST APIs</span>
+                            <span class="badge"><i class="fas fa-database"></i> SQL</span>
+                        </div>
+                    </div>
+                    <!-- AI/ML & Data Science -->
+                    <div class="skill-category reveal" style="transition-delay: 0.2s">
+                        <h3><i class="fas fa-brain"></i> AI/ML & Data Science</h3>
+                        <div class="skill-badges">
+                            <span class="badge">TensorFlow Lite</span>
+                            <span class="badge">NumPy</span>
+                            <span class="badge">Pandas</span>
+                            <span class="badge">GenAI</span>
+                        </div>
+                    </div>
+                    <!-- Tools & Core Areas -->
+                    <div class="skill-category reveal" style="transition-delay: 0.3s">
+                        <h3><i class="fas fa-wrench"></i> Tools & Core</h3>
+                        <div class="skill-badges">
+                            <span class="badge"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                            <span class="badge">VS Code</span>
+                            <span class="badge">Figma</span>
+                            <span class="badge">OOPs</span>
+                            <span class="badge">DBMS</span>
+                            <span class="badge">OS / Networks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Work <span>Experience</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item reveal-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">SDE Intern</h3>
+                            <h4 class="timeline-subtitle">CrazyWebDev | Jhansi, UP <span>| Feb 2024 - June 2024</span>
+                            </h4>
+                            <ul class="timeline-list">
+                                <li>Developed 10+ responsive webpages using HTML, CSS, Bootstrap, JavaScript & Node.js.
+                                </li>
+                                <li>Implemented modern UI/UX features with cross-browser and mobile compatibility.</li>
+                                <li>Optimized performance to enhance user experience and load times.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">SIH Finalist - 2025</h3>
+                            <h4 class="timeline-subtitle">Smart India Hackathon <span>| 2025</span></h4>
+                            <ul class="timeline-list">
+                                <li>Experienced in web, Firestore, RBAC, PFMS-style fund management, and automated data
+                                    ingestion.</li>
+                                <li>Built ML-based predictive delay models, real-time dashboards, and audit trails for
+                                    PM-AJAY projects.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Dart</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">REST APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Featured <span>Projects</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop"
+                                alt="PM-AJAY ISMC">
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a> -->
+                                <a href="https://pm-ajay-icms.web.app/" target="_blank" aria-label="Live Demo"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>PM-AJAY ISMC Platform</h3>
+                            <p>AI-enabled cloud platform for fund tracking, dashboards, automated data ingestion, RBAC,
+                                and workflows (Govt. Scale).</p>
+                            <div class="project-tech">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>AI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card reveal" style="transition-delay: 0.1s">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop"
+                                alt="CompressX">
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a> -->
+                                <a href="https://compress-x-rouge.vercel.app/" target="_blank" aria-label="Live Demo"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>CompressX</h3>
+                            <p>Full-Stack File Processing System for file upload, compression, and conversion with REST
+                                APIs and efficient processing.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card reveal" style="transition-delay: 0.2s">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop"
+                                alt="Portfolio">
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a> -->
+                                <a href="#" target="_blank" aria-label="Live Demo"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Website</h3>
+                            <p>Modern responsive portfolio developed to showcase skills, projects, achievements, and
+                                contact information.</p>
+                            <div class="project-tech">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card reveal" style="transition-delay: 0.3s">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop"
+                                alt="Minor Projects">
+                            <div class="project-overlay">
+                                <a href="minor-projects.html" class="btn btn-primary overlay-btn">SEE ALL MINOR
+                                    PROJECTS.
+                                    <i class="fas fa-arrow-right" style="margin-left: 0.5rem;"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3><a href="minor-projects.html" style="color: inherit; text-decoration: none;">Minor
+                                    Projects</a></h3>
+                            <p>Developed 10+ minor frontend web projects to solidify basic development skills and
+                                fundamental logic.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card reveal" style="transition-delay: 0.4s">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=600&auto=format&fit=crop"
+                                alt="DSA Problems">
+                            <div class="project-links">
+                                <a href="https://github.com/Sakshi-987/DSA" target="_blank" aria-label="GitHub"><i
+                                        class="fab fa-github"></i></a>
+                                <!-- <a href="#" target="_blank" aria-label="Live Demo"><i -->
+                                <!-- class="fas fa-external-link-alt"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>DSA Problem Solving</h3>
+                            <p>Repository containing 250+ solved Data Structures and Algorithms problems optimizing time
+                                and space complexity.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>DSA</span>
+                                <span>Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="project-card reveal" style="transition-delay: 0.5s">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=600&auto=format&fit=crop"
+                                alt="Java Projects">
+                            <div class="project-links">
+                                <a href="https://github.com/Sakshi-987/Java-Projects" target="_blank"
+                                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                <!-- <a href="#" target="_blank" aria-label="Live Demo"><i
+                                        class="fas fa-external-link-alt"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Core Java Projects</h3>
+                            <p>Developed multiple applications using Core Java, showcasing strong Object-Oriented
+                                Programming (OOP) concepts.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>OOPs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">My <span>Education</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card reveal-left">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <h3>B.Tech – Computer Science & Engineering</h3>
+                            <h4>Bundelkhand University, Jhansi <span>| 2022 - Present</span></h4>
+                            <p>CGPA: 7.89</p>
+                            <p class="edu-desc">Core coursework: Object-Oriented Programming (OOPs), Data Structures,
+                                Algorithms, DBMS, Operating Systems, Computer Networks.</p>
+                        </div>
+                    </div>
+                    <div class="education-card reveal-right" style="transition-delay: 0.1s">
+                        <div class="edu-icon"><i class="fas fa-school"></i></div>
+                        <div class="edu-details">
+                            <h3>Class 12th (Intermediate)</h3>
+                            <h4>Jai Academy (CBSE Board) <span>| Passed 2021</span></h4>
+                            <p>Percentage: 80.28%</p>
+                            <p class="edu-desc">Science Stream (PCM) with a focus on Mathematics and Physics
+                                fundamentals.</p>
+                        </div>
+                    </div>
+                    <div class="education-card reveal-left" style="transition-delay: 0.2s">
+                        <div class="edu-icon"><i class="fas fa-book-reader"></i></div>
+                        <div class="edu-details">
+                            <h3>Class 10th (High School)</h3>
+                            <h4>Jai Academy (CBSE Board) <span>| Passed 2019</span></h4>
+                            <p>Percentage: 90.40%</p>
+                            <p class="edu-desc">Strong academic foundation with highest marks in Science and
+                                Mathematics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coding Profiles Section -->
+        <section id="profiles" class="profiles section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Coding <span>Profiles</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="profiles-grid">
+                    <a href="https://leetcode.com/u/Sakshi46/" target="_blank" class="profile-card reveal">
+                        <div class="profile-icon leetcode"><i class="fas fa-code"></i></div>
+                        <h3>LeetCode</h3>
+                        <p class="username">Sakshi46</p>
+                        <div class="stats">
+                            <div class="stat"><span>Solved:</span> 550+</div>
+                        </div>
+                    </a>
+                    <a href="https://www.geeksforgeeks.org/profile/sahusakshi" target="_blank"
+                        class="profile-card reveal" style="transition-delay: 0.1s">
+                        <div class="profile-icon gfg"><i class="fas fa-laptop-code"></i></div>
+                        <h3>GeeksforGeeks</h3>
+                        <p class="username">sahusakshi</p>
+                        <div class="stats">
+                            <div class="stat"><span>Solved:</span> 620+</div>
+                            <div class="stat"><span>Streak:</span> 160 Days</div>
+                        </div>
+                    </a>
+                    <a href="https://www.codechef.com/users/sayomisakshi" target="_blank" class="profile-card reveal"
+                        style="transition-delay: 0.3s">
+                        <div class="profile-icon codechef"><i class="fas fa-utensils"></i></div>
+                        <h3>CodeChef</h3>
+                        <p class="username">sayomisakshi</p>
+                        <div class="stats">
+                            <div class="stat"><span>Rating:</span> Active</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Sakshi-987" target="_blank" class="profile-card reveal"
+                        style="transition-delay: 0.2s">
+                        <div class="profile-icon github"><i class="fab fa-github"></i></div>
+                        <h3>GitHub</h3>
+                        <p class="username">@Sakshi-987</p>
+                        <div class="stats">
+                            <div class="stat"><span>Projects:</span> 10+</div>
+                        </div>
+                    </a>
+
+                    <a href="https://codolio.com/profile/Sakshi46" target="_blank" class="profile-card reveal"
+                        style="transition-delay: 0.4s">
+                        <div class="profile-icon"
+                            style="color: #4CAF50; background: linear-gradient(135deg, #1f2937, #111827);"><i
+                                class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Codolio</h3>
+                        <p class="username">Sakshi Sahu</p>
+                        <div class="stats">
+                            <div class="stat"><span>Portfolio:</span> Active</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Achievements & <span>Certifications</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="achievements-list">
+                    <div class="achievement-item reveal">
+                        <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+                        <div class="ach-content">
+                            <h3>Hackathons & Competitions</h3>
+                            <p><strong>SIH 2025 Finalist</strong>, 2nd place in AgroGuardian app working model
+                                competition, and secured Rank-36 in the Code-Mahotsav Contest.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item reveal">
+                        <div class="ach-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="ach-content">
+                            <h3>Certifications</h3>
+                            <p><strong>Oracle Cloud Data Science Certified</strong>. Certified Full-Stack Developer
+                                Intern from CrazyWebDev. Certified DSA in Java from Apna College.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item reveal">
+                        <div class="ach-icon"><i class="fas fa-medal"></i></div>
+                        <div class="ach-content">
+                            <h3>Global Participation & Workshops</h3>
+                            <p>Participant in NASA Global Space Apps Challenge 2024, Adobe India Hackathon, and Python
+                                Programming with IOT workshop.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Resume Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Get In <span>Touch</span></h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="contact-container">
+                    <!-- Contact Info & Resume -->
+                    <div class="contact-info reveal-left">
+                        <h3>Let's Connect</h3>
+                        <p>I'm currently looking for new opportunities. Whether you have a question or just want to say
+                            hi, I'll try my best to get back to you!</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:sahusakshi194@gmail.com">sahusakshi194@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Jhansi, UP, India</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-share-alt"></i>
+                                <div>
+                                    <h4>Social Profiles</h4>
+                                    <div class="social-links-small">
+                                        <a href="https://github.com/Sakshi-987" aria-label="GitHub" target="_blank"><i
+                                                class="fab fa-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/sakshi-sahu987/" aria-label="LinkedIn"
+                                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <!-- Twitter removed -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Resume Box -->
+                        <div class="resume-box mt-4">
+                            <h4>My Resume</h4>
+                            <p>Get a detailed overview of my experience and skills.</p>
+                            <div class="resume-actions">
+                                <a href="assets/Sakshi-resume-final.pdf" target="_blank" class="btn btn-primary"><i
+                                        class="fas fa-external-link-alt"></i>
+                                    Open</a>
+                                <a href="assets/Sakshi-resume-final.pdf" download class="btn btn-secondary"><i
+                                        class="fas fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container reveal-right">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy;2026 Sakshi Sahu | DevPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
